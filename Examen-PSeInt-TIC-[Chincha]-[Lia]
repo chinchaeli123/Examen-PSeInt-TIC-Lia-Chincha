@@ -1,0 +1,12 @@
+Algoritmo Ejercicio_14
+	Definir N , contar Como Entero;
+	Leer N;
+	contar = 0 ;
+	Mientras N > 0 Hacer
+		N=TRUNC(N/10);
+		contar = contar + 1 ;
+	FinMientras
+	
+	Escribir " la cantidad de digitos son :",contar  ;
+	
+FinAlgoritmo
